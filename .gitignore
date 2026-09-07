@@ -1,0 +1,21 @@
+﻿# Downloaded data products
+data/*
+!data/.gitkeep
+tess_bulk/
+tess_targets/
+mastDownload/
+*.fits
+*.fits.gz
+
+# Generated outputs (commit deliberately, not by accident)
+outputs/*
+!outputs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local
+.env
+*.log
